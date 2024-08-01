@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+	<div class="main">
+
+
+		<!------Header Section------>
+		<nav>
+			<a href="#" class="logo">Adi<span>t</span><span>y</span><span>a</span>
+			</a>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<i class="fas fa-bars"></i>
+			</label>
+			<!-- <label class="logo">Sports Saga</label> -->
+			<ul>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<!-- <i class="fa-solid fa-moon"></i>
+		<i class="fa-regular fa-moon"></i> -->
+		</nav>
+
+
+
+		<!---------Home Section--------------->
+		<section class="home" id="home">
+			<div class="home-text">
+				<div class="slide">
+					<span class="one">Hello</span>
+					<span class="two">I'm</span>
+				</div>
+				<h1>Jyotiraditya</h1>
+				<h3>Website<span>Designer.</span></h3>
+				<p>Welcome to my digital space! I'm Jyotiraditya Pattnaik, a skilled Front-end and Python Developer
+					passionate about transforming concepts into captivating digital solutions. Let's collaborate and
+					bring
+					your ideas to life through innovative coding.</p>
+				<div class="button">
+					<a href="#about" class="btn">About Me</a>
+				</div>
+			</div>
+		</section>
+
+		<!---------about Section --------------->
+		<section class="about" id="about">
+			<div class="about-img">
+				<img src="https://i.pngimg.me/thumb/f/350/faaddab9525f45ce8278.jpg">
+			</div>
+
+			<div class="about-text">
+				<h2>About <span>Me</span></h2>
+				<h4>Website Designer!</h4>
+				<p>Welcome to my portfolio! I'm Jyotiraditya Pattnaik, a passionate Front-end and Python Developer based
+					in
+					Odisha, India. With a Bachelor's degree in Computer Science and Engineering, I craft exceptional
+					digital
+					experiences. Skilled in Python, JavaScript, HTML, CSS, and more, I specialize in projects like
+					YouTube
+					video downloaders and smart door lock systems. Let's connect and create something amazing!
+				</p>
+				<a href="#" class="btn">More About</a>
+			</div>
+		</section>
+
+		<!------Skills------>
+		<section class="container-skills" id="skills">
+			<div class="main-text">
+				<h2><span>Ski</span>lls</h2>
+			</div>
+
+
+			<div class="skill-cont">
+				<div class="skills">
+					<ul class="ch-grid">
+						<li>
+							<div class="circle" id="circle1">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage90); --to-deg:var(--value-percentage90);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage90); --to-deg:var(--value-percentage90);">
+									<div class="fill"
+										style="transform:var(--value-percentage90); --to-deg:var(--value-percentage90);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/python.svg" alt="html icon" class="ch-img">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>Python</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">90%</h3>
+						</li>
+						<li>
+							<div class="circle">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage50); --to-deg:var(--value-percentage50);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage50); --to-deg:var(--value-percentage50);">
+									<div class="fill"
+										style="transform:var(--value-percentage50); --to-deg:var(--value-percentage50);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/C.svg" alt="html icon" class="ch-img" id="ch2">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>Embedded C</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">50%</h3>
+						</li>
+						<li>
+							<div class="circle">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage80); --to-deg:var(--value-percentage80);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage80); --to-deg:var(--value-percentage80);">
+									<div class="fill"
+										style="transform:var(--value-percentage80); --to-deg:var(--value-percentage80);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/HTML.svg" alt="html icon" class="ch-img" id="ch3">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>HTML</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">80%</h3>
+						</li>
+						<li>
+							<div class="circle">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);">
+									<div class="fill"
+										style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/CSS.svg" alt="html icon" class="ch-img" id="ch4">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>CSS</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">60%</h3>
+						</li>
+						<li>
+							<div class="circle">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage40); --to-deg:var(--value-percentage40);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage40); --to-deg:var(--value-percentage40);">
+									<div class="fill"
+										style="transform:var(--value-percentage40); --to-deg:var(--value-percentage40);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/Javascript.svg" alt="html icon" class="ch-img" id="ch5">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>JavaScript</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">40%</h3>
+						</li>
+						<li>
+							<div class="circle">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage40); --to-deg:var(--value-percentage40);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage40); --to-deg:var(--value-percentage40);">
+									<div class="fill"
+										style="transform:var(--value-percentage40); --to-deg:var(--value-percentage40);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/Tailwind.svg" alt="html icon" class="ch-img" id="ch6">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>Tailwind CSS</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">40%</h3>
+						</li>
+						<li>
+							<div class="circle">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage50); --to-deg:var(--value-percentage50);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage50); --to-deg:var(--value-percentage50);">
+									<div class="fill"
+										style="transform:var(--value-percentage50); --to-deg:var(--value-percentage50);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/Github.svg" alt="html icon" class="ch-img">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>Git & Github</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">50%</h3>
+						</li>
+						<li>
+							<div class="circle">
+								<div class="mask half">
+									<div class="fill"
+										style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);">
+									</div>
+								</div>
+								<div class="mask full"
+									style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);">
+									<div class="fill"
+										style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);">
+									</div>
+								</div>
+								<div class="inside-circle">
+									<img src="./assets/Mysql.svg" alt="html icon" class="ch-img" id="ch8">
+								</div>
+								<div class="ch-info">
+									<h3>Improving this skill everyday</h3>
+									<p>JavaScript</p>
+								</div>
+							</div>
+							<br>
+							<h3 style="color: aliceblue;">60%</h3>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+
+		<!-----------Services Section-------------->
+		<section class="services" id="services">
+			<div class="main-text">
+				<h2><span>My</span>Services</h2>
+			</div>
+			<div class="services-content">
+				<div class="box" id="box1">
+					<div class="s-icons">
+						<i class='bx bx-mobile-alt'></i>
+					</div>
+					<h3>Web Design</h3>
+					<p>Web design activities can be categorized by professional expertise, such as competitive analysis
+						and corporate strategy. Competitive Analysis involves studying competitors' websites to identify
+						areas for improvement. Corporate Strategy ensures that the design aligns with a company’s brand
+						and goals</p>
+					<a href="#" class="btn">Read More</a>
+				</div>
+
+				<div class="box" id="box2">
+					<div class="s-icons">
+						<i class='bx bx-code-alt'></i>
+					</div>
+					<h3>Python Developing</h3>
+					<p>Python development can be categorized by expertise, such as data analysis and web development.
+						Data Analysis involves using Python for analyzing and interpreting data to derive insights. Web
+						Development focuses on building and maintaining web applications using frameworks like Django or
+						Flask. </p>
+					<a href="#" class="btn">Read More</a>
+				</div>
+
+				<div class="box" id="box3">
+					<div class="s-icons">
+						<i class='bx bx-edit-alt'></i>
+					</div>
+					<h3>Creative Design</h3>
+					<p>Creative design activities can be categorized by expertise, such as visual design and user
+						experience. Visual Design focuses on creating appealing graphics and layouts, while User
+						Experience ensures that designs are intuitive and user-friendly.</p>
+					<a href="#" class="btn">Read More</a>
+				</div>
+			</div>
+
+		</section>
+
+		<!-----------Portfolio Section--------------->
+		<section class="portfolio" id="portfolio">
+			<div class="main-text">
+				<h2><span>Latest</span>Project</h2>
+			</div>
+			<div class="portfolio-content">
+				<div class="row">
+					<img
+						src="https://img.freepik.com/free-vector/flat-collage-with-man-checking-weather-forecast-wind-pulling-out-umbrella-from-woman-hands-vector-illustration_1284-83203.jpg?t=st=1722543632~exp=1722547232~hmac=f020910dcfbab77f8da1ad5045afeb22969f476e5f507ce375057f022073f7b5&w=1060">
+					<div class="layer">
+						<h2 style="color: black; font-weight: 900;">Weather App</h5>
+							<p style="color: black; font-weight: 800;">
+								Developed a weather app using the OpenWeather API to provide real-time weather
+								information
+								and forecasts. The app fetches and displays current weather data based on user location
+								or
+								search input, showcasing skills in API integration and front-end development.</p>
+							<a href="https://jyotiradi0526.github.io/Weather-App/" target="_blank"> <i
+									class='bx bx-link-external'></i></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<img
+						src="data:image/png;base64,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">
+					<div class="layer">
+						<h2 style="color: black; font-weight: 900;">Text To Speech Converter</h5>
+							<p style="color: black; font-weight: 800;">The project is a text-to-speech application built
+								in JavaScript. Users input text, which is
+								then converted into speech using the Speech Synthesis API. The application also allows
+								users
+								to select from available voices on their device. </p>
+							<a href="https://jyotiradi0526.github.io/Text-To-Speech-Converter/" target="_blank"> <i
+									class='bx bx-link-external'></i></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<img
+						src="https://img.freepik.com/premium-vector/welcome-back-school-with-toga-hat-yellow-pencil_1278528-1220.jpg?w=996">
+					<div class="layer">
+						<h2 style="color: black; font-weight: 900;">Student Registration System</h5>
+							<p style="color: black; font-weight: 800;">Developed a web-based student registration system
+								using HTML, CSS, and JavaScript with local
+								storage. Enabled users to register, view, and edit student information, with data
+								persistence across sessions.</p>
+							<a href="https://jyotiradi0526.github.io/Student-Registration-System/" target="_blank"> <i
+									class='bx bx-link-external'></i></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<img
+						src="data:image/jpeg;base64,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">
+					<div class="layer">
+						<h2 style="color: black; font-weight: 900;">Smart Door Lock
+							</h5>
+							<p style="color: black; font-weight: 800;">I have worked on IoT specially in arduino,I have
+								made a project on Smart Door Lock system, i have made this project by seeing a large
+								security breach in houses,this door lock system is very much needed nowadays,so i have
+								worked on this individually.</p>
+							<a href="https://github.com/Jyotiradi0526/Smart-Door-Lock-System.git" target="_blank"> <i
+									class='bx bx-link-external'></i></a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!------------------Contact section------------>
+		<section class="contact" id="contact">
+			<div class="contact-text">
+				<h2>Contact <span>Me!</span></h2>
+				<h4>If you have any project in your mind.</h4>
+				<p>I'm a website Designer - Crafting digital experiences with code. Let's tutn ideas into</p>
+				<div class="list">
+					<li><a href="#">+91 7846956790</a></li>
+					<li><a href="#">jyotiradi2001@gmail.com</a></li>
+					<li><a href="#">Follow me on Insta</a></li>
+				</div>
+
+				<div class="contact-icons">
+					<a href="#"><i class='bx bxl-facebook'></i></a>
+					<a href="#"><i class='bx bxl-twitter'></i></a>
+					<a href="#"><i class='bx bxl-instagram-alt'></i></a>
+					<a href="#"><i class='bx bxl-youtube'></i></a>
+				</div>
+
+			</div>
+			<div class="contact-form">
+				<form action="">
+					<input type="name" placeholder="Your Name " required>
+					<input type="email" placeholder="Your Email " required>
+					<input type="number" placeholder="your Mobile Number" required>
+					<textarea name="" id="" cols="20" rows="10" placeholder="How Can I Help You " required></textarea>
+					<input type="submit" value="Send Message" class="submit" required>
+				</form>
+
+			</div>
+		</section>
+
+		<!---------End Section---------->
+		<footer class="end">
+			<div class="last-text">
+				<p>Design By Jyotiraditya Pattnaik</p>
+			</div>
+			<div class="top">
+				<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+			</div>
+		</footer>
+
+	</div>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+		integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+		integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
